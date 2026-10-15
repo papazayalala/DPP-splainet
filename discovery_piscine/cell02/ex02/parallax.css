@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.para {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("burger.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p {
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.slided {
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    padding: 0 10px 10px;
+    box-sizing: border-box;
+}
