@@ -25,7 +25,7 @@ balloon.addEventListener('click', function () {
 });
 
 balloon.addEventListener('mouseleave', function () {
-    if (current_size > 200) {
+    while (current_size > 200) {
         current_size -= 5;
 
         if (current_size < 200) {
