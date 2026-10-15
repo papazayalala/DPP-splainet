@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.burger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("burger.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hotdog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hotdog.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    width: 100%;
+    height: auto;
+    color: white;
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    height: auto;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+
+.slided {
+    height: 400px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-block {
+    flex: 1;
+    color: white;
+}
+
+.gordon {
+    width: 260px;
+    height: 260px;
+    border-radius: 12px;
+    background-image: url("gordon.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
+}
