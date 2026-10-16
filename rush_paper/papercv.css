@@ -34,6 +34,7 @@ html, body {
 
 #section3 {
     max-height: 400px;
+    justify-content: center;
 }
 #section_grill {
     max-height: 400px;
@@ -176,20 +177,33 @@ h1 {
     box-shadow: 0 0 12px rgba(255, 255, 255, 0.15);
 }
 .card { 
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    background-color: antiquewhite;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    height: auto;
-    margin: auto;
+    border-radius: 18px;
+    background-color: #f3e5d3;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    width: min(360px, 80vw);
+    overflow: hidden;
+    margin: 0 auto;
     text-align: center;
     font-family: arial;
+}
+
+#section3 .gordon {
+    width: 100%;
+    height: 300px;
+    border-radius: 0;
+    display: block;
+}
+
+#section3 h1 {
+    color: #1a1a1a;
+    margin: 20px 0 10px;
+    font-size: 2rem;
 }
 
 .title {
     color: grey;
     font-size: 18px;
+    margin: 0 16px 10px;
 }
 
 button {
